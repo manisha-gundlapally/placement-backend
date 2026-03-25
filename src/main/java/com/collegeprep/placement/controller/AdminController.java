@@ -21,10 +21,7 @@ public class AdminController {
         return adminService.getPending();
     }
 
-    @GetMapping("/users")
-public List<User> getUsers() {
-    return userRepository.findAll();
-}
+    
 
     // ✅ GET ALL DATA
     @GetMapping("/all")
