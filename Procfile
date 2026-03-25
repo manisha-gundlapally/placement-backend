@@ -1,0 +1,1 @@
+web: java -jar target/placement-system-0.0.1-SNAPSHOT.jar
