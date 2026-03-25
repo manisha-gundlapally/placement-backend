@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://placement-frontend-hwv4wpnpp-manisha-gundlapallys-projects.vercel.app")
 @RequestMapping("/api/senior")
 
 public class SeniorController {
