@@ -7,6 +7,10 @@ import lombok.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+
+
+
+@Table(name = "users")   // ✅ FIX HERE
 public class User {
 
     @Id
