@@ -19,6 +19,10 @@ public class AuthController {
     public User register(@RequestBody RegisterRequest request) {
         return authService.register(request);
     }
+    @GetMapping("/test")
+public String test() {
+    return "Backend working 🚀";
+}
 
     @PostMapping("/login")
     public User login(@RequestBody LoginRequest request) {
